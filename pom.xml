@@ -11,6 +11,37 @@
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
+
+        <!-- https://mvnrepository.com/artifact/io.github.openfeign/feign-core -->
+        <!-- https://mvnrepository.com/artifact/io.github.openfeign/feign-jackson -->
+        <!-- https://mvnrepository.com/artifact/io.github.openfeign/feign-slf4j -->
+        <feign.version>11.0</feign.version>
+
     </properties>
+
+    <dependencies>
+
+        <!-- https://mvnrepository.com/artifact/io.github.openfeign/feign-core -->
+        <dependency>
+            <groupId>io.github.openfeign</groupId>
+            <artifactId>feign-core</artifactId>
+            <version>${feign.version}</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/io.github.openfeign/feign-jackson -->
+        <dependency>
+            <groupId>io.github.openfeign</groupId>
+            <artifactId>feign-jackson</artifactId>
+            <version>${feign.version}</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/io.github.openfeign/feign-slf4j -->
+        <dependency>
+            <groupId>io.github.openfeign</groupId>
+            <artifactId>feign-slf4j</artifactId>
+            <version>${feign.version}</version>
+        </dependency>
+
+    </dependencies>
 
 </project>
